@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>hisNeusoft</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>Servlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>registServlet</servlet-name>
+    <servlet-class>Servlet.registServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>treatServlet</servlet-name>
+    <servlet-class>Servlet.treatServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>unregistServlet</servlet-name>
+    <servlet-class>Servlet.unregistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addpresServlet</servlet-name>
+    <servlet-class>Servlet.addpresServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>openmedServlet</servlet-name>
+    <servlet-class>Servlet.openmedServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>payServlet</servlet-name>
+    <servlet-class>Servlet.payServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>handOutMedServlet</servlet-name>
+    <servlet-class>Servlet.handOutMedServlet</servlet-class>
+  </servlet>
+</web-app>
