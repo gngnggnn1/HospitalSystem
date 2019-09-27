@@ -9,8 +9,8 @@ import java.sql.SQLException;
 import Entity.Login;
 
 public class loginDao {
-	static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver"; 
-	static final String DB_URL = "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false";
+    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver"; 
+    static final String DB_URL = "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false";
 	// 数据库的用户名与密码，需要根据自己的设置
     static final String USER = "root";
     static final String PASS = "gn131313";
